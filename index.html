@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>manage</title>
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" href="style/index.css">
+</head>
+<body>
+	<section class="slider col-sm-2 col-sm-offset-1">
+		<div class="slider-user">
+			<div class="user-icon">
+				<span class="glyphicon glyphicon glyphicon-user"></span>
+			</div>
+			<div class="user-text">管理员</div>
+		</div>
+		<div class="slider-nav">
+			<nav>
+				<ul>
+					<li class="nav-btn">
+						<span class="glyphicon glyphicon-edit col-sm-2"></span>
+						<span class="col-sm-9 nav-btn-text">审核</span>
+					</li>
+					<li class="nav-btn">
+						<span class="glyphicon glyphicon-user col-sm-2"></span>
+						<span class="col-sm-9 nav-btn-text">所有用户</span>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</section>
+	<section class="contain col-sm-8">
+		<div class="works-show">
+			<div class="works-breadcrumb">
+				<span class="breadcrumb-h1">审核作品</span>
+				<span> > </span>
+				<span class="breadcrumb-h2">百香果茶饮</span>
+			</div>
+			<div class="works-image">
+				<img class="img-responsive" src="images/guoji.jpeg" alt="">
+			</div>
+		</div>
+		<div class="works-details">
+			<div class="row detail-story">
+				<label for="story" class="col-sm-12">作品背后的故事</label>
+				<textarea id="story" class="col-sm-10 form-control" cols="30" rows="6" placeholder="不超过500字"></textarea>
+			</div>
+			<div class="row">
+				<div class="col-sm-6 detail-time">
+					<label for="time" class="col-sm-4">准备时间:</label>
+					<div class="col-sm-6">
+						<input id="time" type="text" class="col-sm-12 form-control">
+					</div>
+					<div class="col-sm-2">分钟</div>
+				</div>
+				<div class="col-sm-6 detail-time">
+					<label for="time" class="col-sm-4">烹饪时间:</label>
+					<div class="col-sm-6">
+						<input id="time" type="text" class="col-sm-12 form-control">
+					</div>
+					<div class="col-sm-2">分钟</div>
+				</div>
+			</div>
+			<div class="row detail-story">
+				<label for="story" class="col-sm-12">主料</label>
+				<textarea id="story" class="col-sm-10 form-control" cols="30" rows="2" placeholder="百香果：适量"></textarea>
+			</div>
+			<div class="row detail-story">
+				<label for="story" class="col-sm-12">辅料</label>
+				<textarea id="story" class="col-sm-10 form-control" cols="30" rows="2" placeholder="茶：适量"></textarea>
+			</div>
+			<div class="row detail-story">
+				<label for="story" class="col-sm-12">具体步骤</label>
+				<textarea id="story" class="col-sm-10 form-control" cols="30" rows="4" placeholder="第一步：将百香果去头，可以不用切太多"></textarea>
+			</div>
+		</div>
+	</section>
+	<script src="node_modules/jquery/dist/jquery.js"></script>
+	<script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>
